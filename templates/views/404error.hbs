@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ {{>headerlinks}}
+</head>
+<body>
+      {{>navbar}}
+     <!--main header-->
+   <div class="container-fluid main-header">
+     <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--left side-->
+                    <div class="col-md-12 col-12 main-header-left align-items-center">
+                      <figure class="err-img">
+                       <img src="images/404error.png" alt="jon" class="img-fluid" title="jonbalo">
+                      </figure>
+                        <p>welcome to Jon balo World</p>
+                        <h1>{{errMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+      </div>  
+    </div>
+   <!-- footer files-->
+   {{>footer}}
+</body>
+</html>
